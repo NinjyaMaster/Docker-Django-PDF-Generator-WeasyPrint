@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <style>
+      .div-table {
+        display: table;
+        width: 100%;
+        background-color: #f4f4f4;
+        border: 1px solid #ccc;
+      }
+      .div-table-row {
+        display: table-row;
+      }
+      .div-table-cell {
+        display: table-cell;
+        padding: 15px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Test23</h1>
+    <img src="{{ image_absolute_url }}" width="100" />
+    <div class="div-table">
+      <div class="div-table-row">
+        <div class="div-table-cell">Row 1, Cell 1</div>
+        <div class="div-table-cell">Row 1, Cell 2</div>
+      </div>
+      <div class="div-table-row">
+        <div class="div-table-cell">Row 2, Cell 1</div>
+        <div class="div-table-cell">Row 2, Cell 2</div>
+      </div>
+    </div>
+    <!-- img src="{% static 'pdf/cat.svg' %}" width="100" / -->
+  </body>
+</html>
