@@ -168,7 +168,7 @@ Project Link: [https://github.com/NinjyaMaster/docker-nginx-certbot-react](https
 [certbot.eff.org]: https://img.shields.io/badge/certbot-0769AD?style=for-the-badge&logo=certbot&logoColor=white
 [Certbot-url]: https://certbot.eff.org/
 [default-https-url]: https://github.com/NinjyaMaster/docker-nginx-certbot-react/blob/main/nginx/default-https.conf
-[Django-logo]: https://www.djangoproject.com/m/img/logos/django-logo-negative.png
+[Django-logo]: https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white
 [Django-url]: https://www.djangoproject.com/
-[Python-logo]: https://www.python.org/community/logos/
+[Python-logo]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
